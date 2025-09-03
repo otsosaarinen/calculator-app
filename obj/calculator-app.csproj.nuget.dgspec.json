@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saari\\Documents\\GitHub\\calculator-app\\calculator-app.csproj": {}
+    "C:\\Users\\saari\\documents\\github\\calculator-app\\calculator-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saari\\Documents\\GitHub\\calculator-app\\calculator-app.csproj": {
+    "C:\\Users\\saari\\documents\\github\\calculator-app\\calculator-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saari\\Documents\\GitHub\\calculator-app\\calculator-app.csproj",
+        "projectUniqueName": "C:\\Users\\saari\\documents\\github\\calculator-app\\calculator-app.csproj",
         "projectName": "calculator-app",
-        "projectPath": "C:\\Users\\saari\\Documents\\GitHub\\calculator-app\\calculator-app.csproj",
+        "projectPath": "C:\\Users\\saari\\documents\\github\\calculator-app\\calculator-app.csproj",
         "packagesPath": "C:\\Users\\saari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saari\\Documents\\GitHub\\calculator-app\\obj\\",
+        "outputPath": "C:\\Users\\saari\\documents\\github\\calculator-app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
