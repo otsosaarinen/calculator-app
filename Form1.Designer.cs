@@ -194,6 +194,7 @@ partial class Form1
 		buttonplus.TabIndex = 15;
 		buttonplus.Text = "+";
 		buttonplus.UseVisualStyleBackColor = true;
+		buttonplus.Click += buttonplus_Click;
 		// 
 		// buttonminus
 		// 
@@ -203,6 +204,7 @@ partial class Form1
 		buttonminus.TabIndex = 16;
 		buttonminus.Text = "-";
 		buttonminus.UseVisualStyleBackColor = true;
+		buttonminus.Click += buttonminus_Click;
 		// 
 		// buttondivided
 		// 
@@ -212,6 +214,7 @@ partial class Form1
 		buttondivided.TabIndex = 17;
 		buttondivided.Text = "/";
 		buttondivided.UseVisualStyleBackColor = true;
+		buttondivided.Click += buttondivided_Click;
 		// 
 		// buttontimes
 		// 
@@ -221,6 +224,7 @@ partial class Form1
 		buttontimes.TabIndex = 18;
 		buttontimes.Text = "x";
 		buttontimes.UseVisualStyleBackColor = true;
+		buttontimes.Click += buttontimes_Click;
 		// 
 		// textBox1
 		// 
@@ -249,6 +253,7 @@ partial class Form1
 		buttoncalculate.TabIndex = 22;
 		buttoncalculate.Text = "Calculate";
 		buttoncalculate.UseVisualStyleBackColor = true;
+		buttoncalculate.Click += buttoncalculate_Click;
 		// 
 		// Form1
 		// 

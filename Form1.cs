@@ -22,6 +22,9 @@ public partial class Form1 : Form
 
 	}
 
+	List<double> numbers = new List<double>();
+	string operation = "";
+
 	private void button1_Click(object sender, EventArgs e)
 	{
 		textBox1.Text += 1;
@@ -76,5 +79,59 @@ public partial class Form1 : Form
 	private void buttonclear_Click(object sender, EventArgs e)
 	{
 		textBox1.Text = string.Empty;
+		operation = "";
+		numbers.Clear();
+	}
+
+	private void buttonplus_Click(object sender, EventArgs e)
+	{
+		operation = "+";
+		numbers.Add(double.Parse(textBox1.Text));
+		textBox1.Clear();
+	}
+
+	private void buttonminus_Click(object sender, EventArgs e)
+	{
+		operation = "-";
+		numbers.Add(double.Parse(textBox1.Text));
+		textBox1.Clear();
+	}
+
+	private void buttontimes_Click(object sender, EventArgs e)
+	{
+		operation = "*";
+		numbers.Add(double.Parse(textBox1.Text));
+		textBox1.Clear();
+	}
+
+	private void buttondivided_Click(object sender, EventArgs e)
+	{
+		operation = "/";
+		numbers.Add(double.Parse(textBox1.Text));
+		textBox1.Clear();
+	}
+
+	private void buttoncalculate_Click(object sender, EventArgs e)
+	{
+		double result = 0;
+
+		numbers.Add(double.Parse(textBox1.Text));
+
+		for (int i = 0; i < numbers.Count - 1; i++)
+		{
+
+			switch (operation) {
+				case "+": result = result + numbers[i] + numbers[i + 1];
+					break;
+				case "-":
+					result = result - numbers[i] - numbers[i + 1];
+					break;
+			}
+			
+		}
+		
+		textBox1.Text = result.ToString();
+		operation = "";
+		numbers.Clear();
 	}
 }
